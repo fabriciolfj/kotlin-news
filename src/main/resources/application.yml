@@ -1,0 +1,10 @@
+spring:
+  threads:
+    virtual:
+      enabled: true
+  application:
+    name: examples
+  datasource:
+    password: secret
+    username: myuser
+    url: jdbc:postgresql://localhost/mydatabase

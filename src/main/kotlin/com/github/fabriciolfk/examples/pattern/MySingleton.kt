@@ -1,4 +1,4 @@
-package com.github.fabriciolfk.examples
+package com.github.fabriciolfk.examples.pattern
 
 class MySingleton private constructor() {
 
@@ -17,9 +17,9 @@ class MySingleton private constructor() {
     }
 }
 
-
+/*
 fun main() {
     val instance = MySingleton.pegar()
 
     instance.doSomething()
-}
+}*/

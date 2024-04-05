@@ -1,4 +1,4 @@
-package com.github.fabriciolfk.examples
+package com.github.fabriciolfk.examples.pattern
 
 // Product class
 data class Computer(
@@ -40,6 +40,7 @@ class ComputerBuilder {
     }
 }
 
+/*
 fun main() {
     // Build the computer with a specific configuration
     val builder = ComputerBuilder()
@@ -49,4 +50,4 @@ fun main() {
         .storage("1TB SSD")
         .graphicsCard("NVIDIA RTX 3080")
         .build()
-}
+}*/

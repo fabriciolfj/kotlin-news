@@ -1,4 +1,4 @@
-package com.github.fabriciolfk.examples
+package com.github.fabriciolfk.examples.pattern
 
 class AbstractFactory {
 }

@@ -1,4 +1,4 @@
-package com.github.fabriciolfk.examples
+package com.github.fabriciolfk.examples.pattern
 
 class Decorator {
 }
@@ -22,8 +22,8 @@ fun Car2.decorate(initialize: () -> Unit) : Car2 {
         }
     }
 }
-
+/*
 fun main() {
     val car = BasicCar().decorate { println("off road car") }
     car.drive()
-}
+}*/

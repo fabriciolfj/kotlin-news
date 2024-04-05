@@ -1,5 +1,6 @@
-package com.github.fabriciolfk.examples
+package com.github.fabriciolfk.examples.pattern
 
+/*
 class Adapter {
 }
 
@@ -24,4 +25,4 @@ fun main() {
     val moder = ModerPrinter()
     val legacy = ModerPrinterAdapter(moder)
     legacy.print()
-}
+}*/

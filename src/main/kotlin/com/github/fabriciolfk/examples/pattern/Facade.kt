@@ -1,4 +1,4 @@
-package com.github.fabriciolfk.examples
+package com.github.fabriciolfk.examples.pattern
 
 class Facade {
 }
@@ -32,7 +32,7 @@ class ComputerFacade(private val cpu: CPU, private val memory: Memory, private v
         println("computer facade successfully...")
     }
 }
-
+/*
 fun main() {
     // Create subsystem components
     val cpu = CPU()
@@ -44,4 +44,4 @@ fun main() {
 
     // Client interacts with the subsystem through the facade
     computerFacade.start()
-}
+}*/

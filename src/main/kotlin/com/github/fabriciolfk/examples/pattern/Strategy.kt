@@ -1,5 +1,5 @@
-package com.github.fabriciolfk.examples
-
+package com.github.fabriciolfk.examples.pattern
+/*
 class Strategy {
 }
 
@@ -43,4 +43,4 @@ fun main() {
 
     shoppingCart1.checkout(100.0)
     shoppingCart2.checkout(50.0)
-}
+}*/
